@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2077017D1EFA88AE00E7BB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077017C1EFA88AE00E7BB5A /* AppDelegate.swift */; };
+		2077017F1EFA88AE00E7BB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077017E1EFA88AE00E7BB5A /* ViewController.swift */; };
+		207701821EFA88AE00E7BB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207701801EFA88AE00E7BB5A /* Main.storyboard */; };
+		207701841EFA88AE00E7BB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207701831EFA88AE00E7BB5A /* Assets.xcassets */; };
+		207701871EFA88AE00E7BB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207701851EFA88AE00E7BB5A /* LaunchScreen.storyboard */; };
+		A05213E5121CA45FE0584F65 /* libPods-dailyBingo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CA0EE3218E5CFBA6C54276 /* libPods-dailyBingo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06922D8D6F5741F722867F07 /* Pods-dailyBingo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyBingo.release.xcconfig"; path = "Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo.release.xcconfig"; sourceTree = "<group>"; };
+		207701791EFA88AD00E7BB5A /* dailyBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2077017C1EFA88AE00E7BB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2077017E1EFA88AE00E7BB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		207701811EFA88AE00E7BB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207701831EFA88AE00E7BB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207701861EFA88AE00E7BB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207701881EFA88AE00E7BB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660B96B20FC50C00986853A0 /* Pods-dailyBingo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyBingo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo.debug.xcconfig"; sourceTree = "<group>"; };
+		83CA0EE3218E5CFBA6C54276 /* libPods-dailyBingo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dailyBingo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207701761EFA88AD00E7BB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05213E5121CA45FE0584F65 /* libPods-dailyBingo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207701701EFA88AD00E7BB5A = {
+			isa = PBXGroup;
+			children = (
+				2077017B1EFA88AD00E7BB5A /* dailyBingo */,
+				2077017A1EFA88AD00E7BB5A /* Products */,
+				E92F920E50940C8335841B67 /* Pods */,
+				6D0861AA2D18581597FB3AB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2077017A1EFA88AD00E7BB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207701791EFA88AD00E7BB5A /* dailyBingo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2077017B1EFA88AD00E7BB5A /* dailyBingo */ = {
+			isa = PBXGroup;
+			children = (
+				2077017C1EFA88AE00E7BB5A /* AppDelegate.swift */,
+				2077017E1EFA88AE00E7BB5A /* ViewController.swift */,
+				207701801EFA88AE00E7BB5A /* Main.storyboard */,
+				207701831EFA88AE00E7BB5A /* Assets.xcassets */,
+				207701851EFA88AE00E7BB5A /* LaunchScreen.storyboard */,
+				207701881EFA88AE00E7BB5A /* Info.plist */,
+			);
+			path = dailyBingo;
+			sourceTree = "<group>";
+		};
+		6D0861AA2D18581597FB3AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83CA0EE3218E5CFBA6C54276 /* libPods-dailyBingo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92F920E50940C8335841B67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				660B96B20FC50C00986853A0 /* Pods-dailyBingo.debug.xcconfig */,
+				06922D8D6F5741F722867F07 /* Pods-dailyBingo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207701781EFA88AD00E7BB5A /* dailyBingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2077018B1EFA88AE00E7BB5A /* Build configuration list for PBXNativeTarget "dailyBingo" */;
+			buildPhases = (
+				3DB0D004EEEA2FE0BE6EBDDE /* [CP] Check Pods Manifest.lock */,
+				207701751EFA88AD00E7BB5A /* Sources */,
+				207701761EFA88AD00E7BB5A /* Frameworks */,
+				207701771EFA88AD00E7BB5A /* Resources */,
+				84F4CAE969D3CE3E3CAB4091 /* [CP] Embed Pods Frameworks */,
+				FE7C844C0AC59D8CA3094A1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dailyBingo;
+			productName = dailyBingo;
+			productReference = 207701791EFA88AD00E7BB5A /* dailyBingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207701711EFA88AD00E7BB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					207701781EFA88AD00E7BB5A = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 207701741EFA88AD00E7BB5A /* Build configuration list for PBXProject "dailyBingo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207701701EFA88AD00E7BB5A;
+			productRefGroup = 2077017A1EFA88AD00E7BB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207701781EFA88AD00E7BB5A /* dailyBingo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207701771EFA88AD00E7BB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207701871EFA88AE00E7BB5A /* LaunchScreen.storyboard in Resources */,
+				207701841EFA88AE00E7BB5A /* Assets.xcassets in Resources */,
+				207701821EFA88AE00E7BB5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB0D004EEEA2FE0BE6EBDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F4CAE969D3CE3E3CAB4091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7C844C0AC59D8CA3094A1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207701751EFA88AD00E7BB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2077017F1EFA88AE00E7BB5A /* ViewController.swift in Sources */,
+				2077017D1EFA88AE00E7BB5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		207701801EFA88AE00E7BB5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207701811EFA88AE00E7BB5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207701851EFA88AE00E7BB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207701861EFA88AE00E7BB5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207701891EFA88AE00E7BB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2077018A1EFA88AE00E7BB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2077018C1EFA88AE00E7BB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660B96B20FC50C00986853A0 /* Pods-dailyBingo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W62GL8FE7;
+				INFOPLIST_FILE = dailyBingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.dailyBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2077018D1EFA88AE00E7BB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06922D8D6F5741F722867F07 /* Pods-dailyBingo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W62GL8FE7;
+				INFOPLIST_FILE = dailyBingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.dailyBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207701741EFA88AD00E7BB5A /* Build configuration list for PBXProject "dailyBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207701891EFA88AE00E7BB5A /* Debug */,
+				2077018A1EFA88AE00E7BB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2077018B1EFA88AE00E7BB5A /* Build configuration list for PBXNativeTarget "dailyBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2077018C1EFA88AE00E7BB5A /* Debug */,
+				2077018D1EFA88AE00E7BB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207701711EFA88AD00E7BB5A /* Project object */;
+}

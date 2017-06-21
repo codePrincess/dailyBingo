@@ -1,0 +1,6 @@
+target 'dailyBingo' do
+    pod 'MobileCenter'
+    pod 'MobileCenter/MobileCenterAnalytics'
+    pod 'MobileCenter/MobileCenterCrashes'
+    pod 'MobileCenter/MobileCenterPush'
+end
