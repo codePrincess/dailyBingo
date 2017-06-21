@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202C66DF1EFA8F36000289F9 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202C66DE1EFA8F24000289F9 /* MobileCenter.framework */; };
+		202C66E01EFA8F36000289F9 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202C66DB1EFA8F24000289F9 /* MobileCenterAnalytics.framework */; };
+		202C66E11EFA8F36000289F9 /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202C66DC1EFA8F24000289F9 /* MobileCenterCrashes.framework */; };
+		202C66E21EFA8F36000289F9 /* MobileCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202C66DD1EFA8F24000289F9 /* MobileCenterPush.framework */; };
 		2077017D1EFA88AE00E7BB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077017C1EFA88AE00E7BB5A /* AppDelegate.swift */; };
 		2077017F1EFA88AE00E7BB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2077017E1EFA88AE00E7BB5A /* ViewController.swift */; };
 		207701821EFA88AE00E7BB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207701801EFA88AE00E7BB5A /* Main.storyboard */; };
 		207701841EFA88AE00E7BB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207701831EFA88AE00E7BB5A /* Assets.xcassets */; };
 		207701871EFA88AE00E7BB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207701851EFA88AE00E7BB5A /* LaunchScreen.storyboard */; };
-		A05213E5121CA45FE0584F65 /* libPods-dailyBingo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CA0EE3218E5CFBA6C54276 /* libPods-dailyBingo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06922D8D6F5741F722867F07 /* Pods-dailyBingo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyBingo.release.xcconfig"; path = "Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo.release.xcconfig"; sourceTree = "<group>"; };
+		202C66DB1EFA8F24000289F9 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterAnalytics.framework; sourceTree = "<group>"; };
+		202C66DC1EFA8F24000289F9 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterCrashes.framework; sourceTree = "<group>"; };
+		202C66DD1EFA8F24000289F9 /* MobileCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterPush.framework; sourceTree = "<group>"; };
+		202C66DE1EFA8F24000289F9 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenter.framework; sourceTree = "<group>"; };
 		207701791EFA88AD00E7BB5A /* dailyBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2077017C1EFA88AE00E7BB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2077017E1EFA88AE00E7BB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +40,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05213E5121CA45FE0584F65 /* libPods-dailyBingo.a in Frameworks */,
+				202C66DF1EFA8F36000289F9 /* MobileCenter.framework in Frameworks */,
+				202C66E01EFA8F36000289F9 /* MobileCenterAnalytics.framework in Frameworks */,
+				202C66E11EFA8F36000289F9 /* MobileCenterCrashes.framework in Frameworks */,
+				202C66E21EFA8F36000289F9 /* MobileCenterPush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +53,10 @@
 		207701701EFA88AD00E7BB5A = {
 			isa = PBXGroup;
 			children = (
+				202C66DE1EFA8F24000289F9 /* MobileCenter.framework */,
+				202C66DB1EFA8F24000289F9 /* MobileCenterAnalytics.framework */,
+				202C66DC1EFA8F24000289F9 /* MobileCenterCrashes.framework */,
+				202C66DD1EFA8F24000289F9 /* MobileCenterPush.framework */,
 				2077017B1EFA88AD00E7BB5A /* dailyBingo */,
 				2077017A1EFA88AD00E7BB5A /* Products */,
 				E92F920E50940C8335841B67 /* Pods */,
@@ -95,12 +109,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2077018B1EFA88AE00E7BB5A /* Build configuration list for PBXNativeTarget "dailyBingo" */;
 			buildPhases = (
-				3DB0D004EEEA2FE0BE6EBDDE /* [CP] Check Pods Manifest.lock */,
 				207701751EFA88AD00E7BB5A /* Sources */,
 				207701761EFA88AD00E7BB5A /* Frameworks */,
 				207701771EFA88AD00E7BB5A /* Resources */,
-				84F4CAE969D3CE3E3CAB4091 /* [CP] Embed Pods Frameworks */,
-				FE7C844C0AC59D8CA3094A1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +134,7 @@
 				TargetAttributes = {
 					207701781EFA88AD00E7BB5A = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -156,54 +168,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3DB0D004EEEA2FE0BE6EBDDE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		84F4CAE969D3CE3E3CAB4091 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE7C844C0AC59D8CA3094A1D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dailyBingo/Pods-dailyBingo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		207701751EFA88AD00E7BB5A /* Sources */ = {
@@ -349,11 +313,20 @@
 			baseConfigurationReference = 660B96B20FC50C00986853A0 /* Pods-dailyBingo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W62GL8FE7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dailyBingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.dailyBingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,11 +337,19 @@
 			baseConfigurationReference = 06922D8D6F5741F722867F07 /* Pods-dailyBingo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W62GL8FE7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dailyBingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.dailyBingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
