@@ -12,6 +12,10 @@
 		2017E40C1EFBBAF4004B686E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2017E40A1EFBBAF4004B686E /* Main.storyboard */; };
 		2017E40E1EFBBAF4004B686E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2017E40D1EFBBAF4004B686E /* Assets.xcassets */; };
 		2017E4111EFBBAF4004B686E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2017E40F1EFBBAF4004B686E /* LaunchScreen.storyboard */; };
+		208A526E1EFBC99900B589A2 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526A1EFBC99900B589A2 /* MobileCenter.framework */; };
+		208A526F1EFBC99900B589A2 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526B1EFBC99900B589A2 /* MobileCenterAnalytics.framework */; };
+		208A52701EFBC99900B589A2 /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526C1EFBC99900B589A2 /* MobileCenterCrashes.framework */; };
+		208A52711EFBC99900B589A2 /* MobileCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526D1EFBC99900B589A2 /* MobileCenterPush.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,11 @@
 		2017E40D1EFBBAF4004B686E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2017E4101EFBBAF4004B686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2017E4121EFBBAF4004B686E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208A526A1EFBC99900B589A2 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenter.framework; sourceTree = SOURCE_ROOT; };
+		208A526B1EFBC99900B589A2 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterAnalytics.framework; sourceTree = SOURCE_ROOT; };
+		208A526C1EFBC99900B589A2 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterCrashes.framework; sourceTree = SOURCE_ROOT; };
+		208A526D1EFBC99900B589A2 /* MobileCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterPush.framework; sourceTree = SOURCE_ROOT; };
+		208A52721EFBCDF100B589A2 /* DailyBingo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyBingo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208A526F1EFBC99900B589A2 /* MobileCenterAnalytics.framework in Frameworks */,
+				208A52701EFBC99900B589A2 /* MobileCenterCrashes.framework in Frameworks */,
+				208A526E1EFBC99900B589A2 /* MobileCenter.framework in Frameworks */,
+				208A52711EFBC99900B589A2 /* MobileCenterPush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +67,11 @@
 		2017E4051EFBBAF4004B686E /* DailyBingo */ = {
 			isa = PBXGroup;
 			children = (
+				208A52721EFBCDF100B589A2 /* DailyBingo.entitlements */,
+				208A526A1EFBC99900B589A2 /* MobileCenter.framework */,
+				208A526B1EFBC99900B589A2 /* MobileCenterAnalytics.framework */,
+				208A526C1EFBC99900B589A2 /* MobileCenterCrashes.framework */,
+				208A526D1EFBC99900B589A2 /* MobileCenterPush.framework */,
 				2017E4061EFBBAF4004B686E /* AppDelegate.swift */,
 				2017E4081EFBBAF4004B686E /* ViewController.swift */,
 				2017E40A1EFBBAF4004B686E /* Main.storyboard */,
@@ -98,6 +116,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 8W62GL8FE7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -261,11 +284,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DailyBingo/DailyBingo.entitlements;
 				DEVELOPMENT_TEAM = 8W62GL8FE7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DailyBingo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.DailyBingo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.DailyBingoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,11 +303,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DailyBingo/DailyBingo.entitlements;
 				DEVELOPMENT_TEAM = 8W62GL8FE7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DailyBingo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.DailyBingo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ms.test.DailyBingoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
