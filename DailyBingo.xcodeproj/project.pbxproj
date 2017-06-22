@@ -16,6 +16,8 @@
 		208A526F1EFBC99900B589A2 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526B1EFBC99900B589A2 /* MobileCenterAnalytics.framework */; };
 		208A52701EFBC99900B589A2 /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526C1EFBC99900B589A2 /* MobileCenterCrashes.framework */; };
 		208A52711EFBC99900B589A2 /* MobileCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A526D1EFBC99900B589A2 /* MobileCenterPush.framework */; };
+		209354771EFBDA65002311C7 /* bingo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 209354751EFBDA65002311C7 /* bingo.wav */; };
+		209354781EFBDA65002311C7 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 209354761EFBDA65002311C7 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		208A526C1EFBC99900B589A2 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterCrashes.framework; sourceTree = SOURCE_ROOT; };
 		208A526D1EFBC99900B589A2 /* MobileCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterPush.framework; sourceTree = SOURCE_ROOT; };
 		208A52721EFBCDF100B589A2 /* DailyBingo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyBingo.entitlements; sourceTree = "<group>"; };
+		209354751EFBDA65002311C7 /* bingo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bingo.wav; sourceTree = "<group>"; };
+		209354761EFBDA65002311C7 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				2017E40D1EFBBAF4004B686E /* Assets.xcassets */,
 				2017E40F1EFBBAF4004B686E /* LaunchScreen.storyboard */,
 				2017E4121EFBBAF4004B686E /* Info.plist */,
+				209354751EFBDA65002311C7 /* bingo.wav */,
+				209354761EFBDA65002311C7 /* ding.wav */,
 			);
 			path = DailyBingo;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209354781EFBDA65002311C7 /* ding.wav in Resources */,
+				209354771EFBDA65002311C7 /* bingo.wav in Resources */,
 				2017E4111EFBBAF4004B686E /* LaunchScreen.storyboard in Resources */,
 				2017E40E1EFBBAF4004B686E /* Assets.xcassets in Resources */,
 				2017E40C1EFBBAF4004B686E /* Main.storyboard in Resources */,
