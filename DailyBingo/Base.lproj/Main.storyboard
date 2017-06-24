@@ -24,16 +24,24 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l87-Tq-jk2">
                                 <rect key="frame" x="16" y="317" width="343" height="34"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.32156862749999998" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright by Manu" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkD-Hg-xVh">
+                                <rect key="frame" x="213" y="626" width="146" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BkD-Hg-xVh" secondAttribute="bottom" constant="20" id="HvB-UQ-zSS"/>
                             <constraint firstItem="l87-Tq-jk2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LeQ-x9-NvJ"/>
                             <constraint firstItem="l87-Tq-jk2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MzF-Oe-Q78"/>
                             <constraint firstItem="l87-Tq-jk2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="O4u-an-Fm8"/>
+                            <constraint firstItem="BkD-Hg-xVh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nux-2m-xcF"/>
                         </constraints>
                     </view>
                     <connections>
