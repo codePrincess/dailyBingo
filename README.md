@@ -8,6 +8,6 @@ The reason for this app to exist is purely educational because the endpoints use
 
 The source code can be found here https://github.com/codePrincess/dailyQuoteFunctions. As soon as the functions are deployed you just have to change the base url in the Swift source and you are fine to go :)
 
-The whole tutorial for setting up the mini backend can be found here http://iamcodeprincess.tumblr.com/post/152248954131/your-daily-business-quote
+The whole tutorial for setting up the mini backend can be found here https://medium.com/@codeprincess/your-daily-business-quote-567ab8ca7d06
 
 Have fun and keep on coding!
